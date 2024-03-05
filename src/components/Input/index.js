@@ -1,14 +1,14 @@
-import { forwardRef } from "react";
-import styles from "./Input.module.scss";
+import { forwardRef } from 'react';
+import styles from './Input.module.scss';
 
 function Input({ value, onChange, ...outrosProps }, ref) {
   return (
-    <input 
+    <input
       ref={ref}
-      value={value} 
-      onChange={onChange} 
+      value={value}
+      onChange={onChange}
       {...outrosProps}
-      className={styles.input} 
+      className={styles.input}
     />
   )
 }

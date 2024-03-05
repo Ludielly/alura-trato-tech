@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #ECECEC;
+  background-color: #F5F5F5;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   overflow-x: hidden;
@@ -12,10 +12,6 @@ body {
 
 input {
   border: none;
-}
-
-select {
-  background-color: #fff;
 }
 
 code {

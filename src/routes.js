@@ -12,9 +12,9 @@ export default function Router() {
         <Route path='/' element={<PaginaPadrao />}>
           <Route index element={<Home />} />
           <Route path='/categoria/:nomeCategoria' element={<Categoria />} />
-          <Route path='/carrinho' element={<Carrinho />} />
-          <Route path='/anuncie/:nomeCategoria' element={<Anuncie />} />
-          <Route path='/anuncie' element={<Anuncie />} />
+          <Route path='carrinho' element={<Carrinho />} />
+          <Route path='anuncie/:nomeCategoria' element={<Anuncie />} />
+          <Route path='anuncie' element={<Anuncie />} />
         </Route>
       </Routes>
     </BrowserRouter>
